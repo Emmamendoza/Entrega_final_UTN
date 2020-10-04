@@ -1,0 +1,58 @@
+<mxfile host="09041a3b-40bf-4f64-aa36-8a7daeb4cbe9" modified="2020-10-04T22:48:24.094Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.49.2 Chrome/83.0.4103.122 Electron/9.2.1 Safari/537.36" etag="GmGLOkutckkh5R45jAuQ" version="13.1.3">
+    <diagram id="6hGFLwfOUW9BJ-s0fimq" name="Page-1">
+        <mxGraphModel dx="1140" dy="1609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry y="-30" width="820" height="820" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="INICIAR SESION / CREAR CUENTA" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;align=right;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry y="-30" width="820" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;font style=&quot;font-size: 23px&quot;&gt;SLIDE CON IMAGENES&lt;/font&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="50" width="790" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="750" y="150" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="shape=singleArrow;direction=west;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="150" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="260" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="260" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="405" y="260" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="700" y="280" width="120" height="470" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+                    <mxGeometry x="700" y="280" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="709" y="331" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="710" y="350" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="710" y="368" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="711" y="405" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="710" y="385" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="711" y="425" width="10" height="10" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
