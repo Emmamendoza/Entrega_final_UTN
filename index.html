@@ -3,24 +3,63 @@
     <head>
         <meta charset='utf-8'>
         <title>Board Game E-Commerce</title>
-        <meta name='viewport' content='width=device-width, initial-scale=1'>
-        <link rel='stylesheet' type='text/css' media='screen' href='../public/stylesheets/index.css'>
-        <script src='../public/javascripts/index.js'></script>
+        <meta name='viewport' content="width=device-width, initial-scale=1,shrink-to-fit=no">
+        <link rel="stylesheet" href="../public/stylesheets/index.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     </head>
     <body>
-        <div class="container-fluid bg-success py-4">
-            <div class="row">
-                <div class="col-12">
-                    <button type="button" class="btn btn-dark">Iniciar Sesion</button>
-                    <button type="button" class="btn btn-dark">Crear Cuenta</button>
+        <div class="container-fluid bg-success">
+            <div class="d-flex justify-content-end">
+                <div class="p-2">
+                    <button type="button" id="login" class="btn btn-dark">Iniciar Sesion</button>
+                    <button type="button" id= "createuser" class="btn btn-dark">Crear Cuenta</button>
                 </div>
             </div>
-            <div class="container">  
-                <h1 class="display-3"><b>Board Games!</b></h1>
-                <p class="lead">Mi intento de ver si puedo hacer el frontend de un E-commerce!</p>
-            </div>
         </div>
+        <div class="jumbotron">
+            <h1 class="display-3">E-Commerce!</h1>
+            <p class="lead">Este es un E-commerce para programacion web full stack</p>
+            <hr class="my-2">
+            <p>Nuestro Catalogo</p>
+        </div>
+        <div class="container">
+            <div class="row">
+              <div class="col-4">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="card-text">Forbidden Island</p>
+                    </div>
+                    <img src="../public/images/Forbidden island.jpg" alt="Card image">
+                    <div class="card-body">
+                    </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="card-text">Splendor</p>
+                    </div>
+                    <img src="../public/images/Splendor.jpg" alt="Card image">
+                    <div class="card-body">
+                    </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="card-text">Risk</p>
+                    </div>
+                    <img src="../public/images/Risk.jpg" alt="Card image">
+                    <div class="card-body">
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
     </body>
 </html>
+
+
