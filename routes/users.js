@@ -1,9 +1,19 @@
 var express = require('express');
 var router = express.Router();
+var userAdminController = require("../controllers/usersAdminController");
 
-/* GET users listing. */
-router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
-});
+/* GET listing. */
+router.get('/id', usersAdminController.getById);
 
+/* POST listing. */
+router.post('/registro', usersAdminController.create);
+router.post('/login', usersAdminController.validate);
+
+/* PUT listing. */
+router.put('/user/activate/:hash', usersAdminController.put);
+
+/* DELETE listing. */
+router.delete('/control', usersAdminController.delete);
+
+/* Exports */
 module.exports = router;
