@@ -1,15 +1,33 @@
-.body {
-  background-color:powderblue;
+body {
+  background-color:lightslategray;
 }
 
-.container {
-  color:white;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.display-3 {
+  font-family: fantasy;
 }
 
-.card {
-  width: auto;
+.jumbotron {
+  margin-top: 20px;
+  background-image: url("../images/jumbotron_image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.lead {
+  font-family: fantasy;
+  font-size: 25px;
+}
+
+.card-body {
+  color:black;
+  font-family: sans-serif;
+  background-color:rgba(0,0,255,0.3);
+  
+}
+
+.card-img-top {
+  background-color:lightslategray;
   max-width: none;
   height: 100%;
-  max-height: 300px;
+  max-height: 230px;
 }

@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset='utf-8'>
         <title>Board Game E-Commerce</title>
-        <meta name='viewport' content="width=device-width, initial-scale=1,shrink-to-fit=no">
-        <link rel="stylesheet" href="../public/stylesheets/index.css">
+        <meta name='viewport' charset='utf-8' content="width=device-width, initial-scale=1,shrink-to-fit=no">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="./public/stylesheets/index.css">
+
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        
     </head>
     <body>
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4 py-3">
-            <a class="navbar-brand" href="#">Nordic Board Games</a>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4 py-2">
+            <a class="navbar-brand" href="#">Nordic Games</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -21,7 +22,7 @@
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Home</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item active">
                         <a class="nav-link" href="#">Contact</a>
                     </li>
                 </ul>
@@ -30,41 +31,38 @@
             <button type="button" id= "createuser" class="btn btn-dark">Crear Cuenta</button>
         </nav>             <!--Aca Termina el navbar-->
         <div class="jumbotron">
-            <h1 class="display-3">Nordic Board Games</h1>
+            <h1 class="display-3">Nordic Games</h1>
             <p class="lead">Este es un E-commerce para programacion web full stack</p>
-            <hr class="my-2">
-            <p>Nuestro Catalogo</p>
         </div>            <!--Aca termina el JumboTron-->
         <div class="container">
-            <div class="row">
-              <div class="col-4">
-                <div class="card">
-                    <div class="card-body img-fluid">
-                        <p class="card-text">Forbidden Island</p>
-                    </div>
-                    <img src="../public/images/Forbidden island.jpg" alt="Card image">
-                    <div class="card-body">
-                    </div>
-                </div>
-              </div>
-              <div class="col-4">
-                <div class="card">
-                    <div class="card-body img-fluid">
-                        <p class="card-text">Splendor</p>
-                    </div>
-                    <img src="../public/images/Splendor.jpg" alt="Card image">
-                    <div class="card-body">
+            <div class="row justify-content-center">
+                <div class="col-lg-4 d-flex align-items-stretch">
+                    <div class="card">
+                        <img class="card-img-top" src="../public/images/game_of_thrones.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Game Of Thrones: The Board Game 2nd edition</h4>
+                            <a href="#!" class="btn btn-primary">Comprar</a>
+                        </div>
                     </div>
                 </div>
-              </div>
-              <div class="col-4">
-                <div class="card">
-                    <div class="card-body img-fluid">
-                        <p class="card-text">Risk</p>
+                <div class="col-lg-4 d-flex align-items-stretch">
+                    <div class="card">
+                        <img class="card-img-top" src="../public/images/undercity.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">The Uncercity</h4>
+                            <a href="#!" class="btn btn-primary">Comprar</a>
+                        </div>
                     </div>
-                    <img src="../public/images/Risk.jpg" alt="Card image">
-                    <div class="card-body">
+                </div>
+                <div class="col-lg-4 d-flex align-items-stretch">
+                    <div class="card">
+                        <img class="card-img-top" src="../public/images/mansions_of_madness.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Mansion of Madness</h4>
+                            <a href="#!" class="btn btn-primary">Comprar</a>
+                        </div>
                     </div>
+                </div>
                 </div>
               </div>
             </div>
