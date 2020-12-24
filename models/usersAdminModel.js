@@ -2,16 +2,17 @@ const mongoose = require("../bin/mongodb");
 const bcrypt = require('bcrypt');
 const errorMessage = require("../util/errorMessage")
 const validators = require("../util/validators")
+
 const userSchema = new mongoose.Schema({
     name:{
         type:String,
-        required:[true,errorMessage.GENERAL.campo_obligatorio],
+        required:[true,errorMessage.GENERAL.required_field],
         trim:true
     },
     user:{
         type:String,
         unique:true,
-        required:[true,errorMessage.GENERAL.campo_obligatorio],
+        required:[true,errorMessage.GENERAL.required_field],
         validate:{
             validator: async function(v){
                 const document = await this.model("usersAdmin").findOne({user:v})
@@ -26,7 +27,7 @@ const userSchema = new mongoose.Schema({
     },
     password:{
         type:String,
-        required:[true,errorMessage.GENERAL.campo_obligatorio],
+        required:[true,errorMessage.GENERAL.required_field],
         validate:{
             validator: async function(v){
                 return validators.isGoodPassword(v);
